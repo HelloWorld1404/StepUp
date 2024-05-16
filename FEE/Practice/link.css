@@ -1,0 +1,29 @@
+.container{
+font-size: larger;
+display: flex;
+flex-wrap: wrap;
+}
+div.a{
+    overflow-wrap: break-word;
+    background-image:radial-gradient(red, yellow, blue, orange, green);
+}
+div.b{
+    overflow-wrap: normal;
+    background-image:linear-gradient(red, yellow, blue, orange, green);
+}
+div.c{
+    overflow-wrap: anywhere;
+    background-image: conic-gradient(red, yellow, blue, orange, green);
+}
+a:link{
+    color: red;
+}
+a:visited{
+    color: yellow;
+}
+a:hover{
+    color: green;
+}
+a:active{
+    color: blue;
+}

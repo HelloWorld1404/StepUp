@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <title>Document</title>
+    <style>
+        .card:hover {
+  transform: scale(1.1);
+}
+
+.card {
+  transition: transform 0.5s;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary shadow ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="main-riyal.html">Tribute-It</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="main-riyal.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="loginpage.html">Log-in</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Category
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="BillGates.html">Bill Gates</a></li>
+                      <li><a class="dropdown-item" href="michael.html">Michael Jackson</a></li>
+                      <li><a class="dropdown-item" href="SteveJobs.html">Steve Jobs</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        
+            <div class="container">
+                <div class="row py-0">
+                    <div class="col-lg-12 py-2">
+                        <h1>
+                            Tribute-It 
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        <!-- corousel -->
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="corosel1.jpg" class="d-block w-100" alt="..." style="height: 500px; ">
+              </div>
+              <div class="carousel-item">
+                <img src="corosel2.webp" class="d-block w-100" alt="..." style="height: 500px;">
+              </div>
+              <div class="carousel-item">
+                <img src="corosel3.jpg" class="d-block w-100" alt="..." style="height: 500px;" >
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+
+
+
+
+          <!-- main  -->
+
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <a href="BillGates.html">
+                    <img class="card-img-top" src="bill.jpg"  alt="Card image cap">
+                    </a>
+                    <div class="card-body">
+                      <p class="card-text"><b>Bill Gates:</b>Bill Tech visionary, Microsoft co-founder, philanthropist, global health advocate. Innovator, author, influential thinker, shaping the future with impact.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <a href="michael.html">
+                    <img class="card-img-top" src="michael.jpeg" alt="Card image cap" style="height: 184px;">
+                    </a>
+                    <div class="card-body">
+                      <p class="card-text">
+                        <b>Michael Jackson:</b> Iconic pop legend, "King of Pop," unparalleled entertainer. Moonwalk creator, humanitarian, record-breaking artist, eternal influence on music and dance.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <a href="SteveJobs.html">
+                    <img class="card-img-top" src="steve1.jpeg" alt="Card image cap">
+                </a>
+                    <div class="card-body">
+                      <p class="card-text"><b>Steve Jobs:</b> Apple co-founder, visionary entrepreneur, design pioneer. Revolutionized technology with iconic products. Charismatic leader, innovator, and creative genius.</p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</body>
+</html>

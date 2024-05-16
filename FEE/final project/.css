@@ -1,0 +1,102 @@
+body{
+    background-image:url("gre.jpg");
+    background-size: cover;
+    background-size: cover;
+    background-position:center;
+    
+
+}
+.navbar{
+   margin-left: 20px;
+   font-size: 50px;
+   padding-left:50px;
+   border:10px;
+   font-family:'Times New Roman', Times, serif;
+   border: 10px solid white;height: 60px; background-color:green;
+
+}
+
+.navbar a{
+    padding:40px;
+    margin-top: 30px;
+    text-decoration: none;
+    color:white;
+    
+
+}
+.container
+{   
+    justify-content: center;
+    text-align: center;
+    font-size:40px;
+   border:10px solid white;width:500px;height:60px;background-color:green;
+   color:white;
+  
+
+}
+#header{
+    text-align: center;
+}
+#header h1{
+    padding: 10px;
+    margin: 10px;
+    border:10px solid white;width:500px;height:60px;background-color:green;
+    font-size:50px;
+    font-style:italic;
+    color:white;
+}
+
+.image{
+      float: left;
+      margin-top: 20px;
+      border:10px solid white;width:500px;height:400px;background-color: rgb(56, 110, 56);
+      padding-left: 20px;
+      padding-top: 20px;
+      padding-right: 20px;
+      padding-bottom: 20px;
+}
+.head{ 
+    text-align: center;
+    font-style:italic;
+    color:black;
+    font-size: 40px;
+    margin-top: 10px;    
+}
+.head pre{ 
+    margin-left:20px;
+}
+.image2 img{
+    float:right;
+    margin-top: 100px;
+    border:8px solid white;width:600px;height:600px;background-color: rgb(56, 110, 56);
+    margin-right: 10px;
+    margin-left:250px;
+}
+.para{
+    float:right;
+    border:10px solid white;width:600px;height:400px;background-color: rgb(56, 110, 56);
+}
+.about{
+    margin-left: 20px;
+    text-align: center;
+   font-size: 40px;
+   padding-top: 20px;
+   font-family:bold;
+   text-color:white;
+   border:10px solid white;width:500px;height:50px;background-color: rgb(56, 110, 56);
+}
+.about h4{
+    margin-top:30px;
+     margin-bottom: -150px;
+}
+.page2{
+    font-size:larger;
+    padding-top: 30px;
+    border:30px solid rgb(56, 110, 56);width:700px;height:600px;background-color: grey;padding: 30px; padding-top: 30px;
+    padding-left: 40px;
+}
+#para2{
+    font-size: 80px;
+    font-style:unset;
+    text-color:white;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .cube{ width:150px;
+        height:150px;
+        position: relative;
+        perspective: 600px;
+        transform-style: preserve-3d;
+        transform: rotateY(20deg);
+    }
+    .cube-face-right{background-color: blue;
+        transform:rotateY(20deg);
+        translate: 3d(0,0,2px);
+    }
+    .cube-face-left{background-color: lightblue;
+        transform:rotateY(20deg);
+        translate: 3d(0,0,2px);
+    }
+    .cube-face-top{background-color: red;transform:rotateY(20deg);
+        translate: 3d(0,0,2px);
+    }
+    .cube-face-bottom{background-color: yellow;transform:rotateY(20deg) translate3d(0 0 3px);
+        translate: 3d(0,0,2px);
+    }
+    .cube-face-back{background-color: blue;transform:rotateY(20deg);
+        translate: 3d(0,0,2px);
+    }
+    .cube-face-front{background-color: orange ;transform:rotateY(20deg);
+        translate: 3d(0,0,2px);
+    }
+    </style>
+</head>
+<body>
+    <div class="cube">
+        <div class="cube-face-left">
+            left
+        </div>
+        <div class="cube-face-right">
+            right
+        </div>
+        <div class="cube-face-top">
+            top 
+        </div>
+        <div class="cube-face-bottom">
+            bottom  
+        </div>
+        <div class="cube-face-front">
+            front  
+        </div>
+        <div class="cube-face-back">
+            back 
+        </div>
+    </div>
+        
+</body>
+</html>

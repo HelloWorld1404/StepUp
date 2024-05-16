@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="abc">Welcome to Chitkara</p>
+    <script>
+        let x=10; y=15; z=x+y
+        document.getElementById("abc").innerHTML="The sum of two no.s is"+z
+    </script>
+    <p id="hello">Check age</p>
+    <script>
+        if(newDate().getHours()<18)
+        {
+            getElementById=("hello").innerHTML="Welcome to Chitkara"
+        }
+    </script>
+    <p id="efg">Welcome to Chitkara</p>
+    <script>
+        const cars =["bmw", "audi", "volvo"]
+        let text="";
+        for(let i=0; i< cars.length; i++)
+        {text+= cars[i] + "<br>"}
+        document.getElementById("efg").innerHTML=text
+    </script>
+    <p id="next">Lorem, ipsum dolor.</p>
+    <script>
+        const person ={first.name="ram", last.name="kumar"; age="25";}
+        let text="";
+        for(let x in person)
+        {text++= person[x]+ ""}
+        document.getElementById("next").innerHTML=text
+    </script>
+</body>
+</html>
